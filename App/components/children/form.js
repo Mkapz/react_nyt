@@ -17,7 +17,7 @@ class Form extends React.Component {
   }
 
 
-  // respond user input
+
   handleChange(event) {
     var newState = {};
     newState[event.target.id] = event.target.value;
@@ -43,7 +43,6 @@ class Form extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
 
-    // set parent to use search term
     console.log("state begin date ", this.state.begin_date);
     this.props.setTerm(this.state.term, this.state.begin_date, this.state.end_date);
     this.setState({ term: "", begin_date: "", end_date: "" });
