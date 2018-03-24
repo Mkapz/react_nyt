@@ -1,0 +1,45 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+  
+body {
+	margin-bottom: 80px;
+	background-color: antiquewhite;
+}
+.container {
+	width: 90%;
+}
+.jumbotron {
+	background: linear-gradient(#333, black);
+	color: white; 
+}
+
+.text-center {
+	font-size: 68px;
+}
+.panel-title {
+	font-size: 26px;
+}
+#formHeader, #savedHeader{
+	font-size: 26px;
+	color: #ffffff;
+	background: linear-gradient(#333, black);
+
+}
+.btn-primary {
+	background: linear-gradient(#333, black) !important;
+}
+.btn-primary:hover {
+	background: white !important;
+	color: #5d6e73!important;
+}
+
+.btn-default {
+	background: #614241 !important;
+	color: white !important;
+}
+.btn-default:hover {
+	background: white !important;
+	color: #614241 !important;
+}
